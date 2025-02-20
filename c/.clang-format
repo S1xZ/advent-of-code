@@ -1,0 +1,12 @@
+BasedOnStyle: LLVM # Options: LLVM, Google, Chromium, Mozilla, WebKit
+IndentWidth: 4 # Number of spaces for indentation
+TabWidth: 4 # Tab width if using tabs
+UseTab: Never # Options: Never, ForIndentation, ForContinuationAndIndentation, Always
+BreakBeforeBraces: Attach # Options: Attach, Linux, Mozilla, Stroustrup, Allman
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse
+ColumnLimit: 100 # Maximum characters per line
+PointerAlignment: Left # Options: Left, Right, Middle
+SpacesBeforeTrailingComments: 1
+SpaceBeforeParens: ControlStatements # Options: Never, ControlStatements, Always
+ReflowComments: true
+SortIncludes: CaseSensitive # Sort #include statements
